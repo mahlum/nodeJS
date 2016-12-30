@@ -1,4 +1,6 @@
 /**
  * New node file
  */
-console.log('this is it');
+var movies = require('./movies');
+movies.printAvatar();
+console.log(movies.favMovie);
